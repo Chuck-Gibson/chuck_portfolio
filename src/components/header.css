@@ -7,13 +7,19 @@
     padding-left: 1rem;
     z-index: 10;
     background-color: rgb(13, 13, 13);
-    color:rgb(17, 203, 32);
-    border-radius: 1rem;
+    color:rgb(123, 120, 120);
+    border-bottom-left-radius: 1rem;
+    border:rgb(17, 203, 32) 1px solid;
 }
 h3 {
     text-align: center;
     
 }
+
+span{
+    color: rgb(17, 203, 32);
+}
+
 ul {
     display: flex;
     margin-right: 2rem;
@@ -21,19 +27,35 @@ ul {
     justify-content: space-between;
     align-items: center; 
     list-style-type: none;
-    overflow: hidden;
     
 }
 
-ul :hover{
-    transition:ease-in-out 0.5sec;
-    color:rgb(13, 13, 13);
-    background-color: rgb(17, 203, 32);
-    border-radius: 1.5rem;
+a {
+    position: relative;
+    display: inline-block;
+    font-size: 1rem;
+    color: inherit;
+    text-decoration: none;
+    overflow: hidden;
 }
 
+
+a::before{
+    position: absolute;
+    content: attr(data-content);
+    color: rgb(17, 203, 32);
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: width 275ms ease;
+    width: 0%;
+    white-space: nowrap;
+}
+
+a:hover::before{
+     width: 100%;
+}
 ul li {
-    background-position: 275ms ease;
     padding: .25rem;
     margin: 1rem;
 }

@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import {Router,Routes} from 'react-router';
+import Header from "./components/header";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+       <Header/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>Chucks portfolio site</p>
         <a
@@ -13,9 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
         </a>
-      </header>
     </div>
   );
 }

@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    padding-left: 1rem;
+    z-index: 10;
+    background-color: rgb(13, 13, 13);
+    color:rgb(17, 203, 32);
+    border-radius: 1rem;
+}
+h3 {
+    text-align: center;
+    
+}
+ul {
+    display: flex;
+    margin-right: 2rem;
+    margin-left: auto;
+    justify-content: space-between;
+    align-items: center; 
+    list-style-type: none;
+    overflow: hidden;
+    
+}
+
+ul :hover{
+    transition:ease-in-out 0.5sec;
+    color:rgb(13, 13, 13);
+    background-color: rgb(17, 203, 32);
+    border-radius: 1.5rem;
+}
+
+ul li {
+    background-position: 275ms ease;
+    padding: .25rem;
+    margin: 1rem;
+}

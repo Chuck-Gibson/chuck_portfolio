@@ -6,10 +6,10 @@
     height: 3rem;
     padding-left: 1rem;
     z-index: 10;
-    background-color: rgb(13, 13, 13);
-    color:rgb(123, 120, 120);
+    background-color: var(--background);
+    color:var(--text);
     border-bottom-left-radius: 1rem;
-    border:rgb(17, 203, 32) 1px solid;
+    border:var(--highlight) 1px solid;
 }
 h3 {
     text-align: center;
@@ -17,7 +17,7 @@ h3 {
 }
 
 span{
-    color: rgb(17, 203, 32);
+    color: var(--highlight);
 }
 
 ul {
@@ -43,7 +43,7 @@ a {
 a::before{
     position: absolute;
     content: attr(data-content);
-    color: rgb(17, 203, 32);
+    color: var(--highlight);
     top: 0;
     left: 0;
     overflow: hidden;

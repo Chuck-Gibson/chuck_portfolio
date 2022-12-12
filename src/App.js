@@ -2,11 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 //import {Router,Routes} from 'react-router';
 import Header from "./components/header";
+import About from './components/about';
 
 function App() {
   return (
     <div className="App">
        <Header/>
+       <About/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>Chucks portfolio site</p>
         <a

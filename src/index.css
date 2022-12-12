@@ -1,5 +1,6 @@
 :root {
-  --background:rgb(34, 34, 34);;
+  --background:rgb(34, 34, 34);
+  --shadow:rgb(18, 18, 18);
   --text:rgb(123, 120, 120);
   --highlight:rgb(17, 203, 32);
 }

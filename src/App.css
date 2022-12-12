@@ -1,11 +1,30 @@
 .App {
   text-align: center;
   background-color: var(--background);
+  padding-top: 4rem;
+  color: var(--text);
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.text-container {
+  border-radius: 2rem;
+  border: var(--highlight) 1px solid;
+  justify-self: center;
+  text-align: left;
+  max-width: 40%;
+  padding: 0.75rem;
+  box-shadow:15px 10px 10px var(--shadow);
+}
+.text-container h2{
+  margin-top: 0rem;
+}
+img {
+  max-width: 30%;
+  margin: 1rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {

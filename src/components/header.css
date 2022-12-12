@@ -10,6 +10,7 @@
     color:var(--text);
     border-bottom-left-radius: 1rem;
     border:var(--highlight) 1px solid;
+   margin-top: -4rem;
 }
 h3 {
     text-align: center;

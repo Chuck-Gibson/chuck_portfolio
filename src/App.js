@@ -1,24 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
-//import {Router,Routes} from 'react-router';
+import {BrowserRouter as Router,Routes} from 'react-router-dom';
 import Header from "./components/header";
 import About from './components/about';
+import Skills from './components/skills';
 
 function App() {
   return (
-    <div className="App">
+    <Router>
+    <main className="App">
        <Header/>
        <About/>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Chucks portfolio site</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
-    </div>
+        <Routes>
+        </Routes>
+       <Skills/>
+    </main>
+    </Router>
   );
 }
 

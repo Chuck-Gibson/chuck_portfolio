@@ -6,7 +6,7 @@ export default function Header() {
     return (
 
         <div className="header">
-            <h3><span>C</span>huck <span>G</span>ibson</h3><h3> - Web Developer</h3>
+            <h2><span>C</span>G</h2>
             <ul>
                <li><a href="/" data-content="About"><span>A</span>bout</a></li>
                <li><a href="/"  data-content="Skills"><span>S</span>kills</a></li>

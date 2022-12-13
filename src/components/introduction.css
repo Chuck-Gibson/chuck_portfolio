@@ -1,0 +1,17 @@
+.intro-container {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height:40rem;
+    text-align: left;
+}
+.intro h1{
+    margin: auto;
+}
+.intro p{
+    max-width: 60%;
+}
+#name{
+    color: rgb(198, 198, 198);
+}

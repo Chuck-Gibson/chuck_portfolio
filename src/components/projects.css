@@ -1,0 +1,8 @@
+.projects-container{
+    width: 100%;
+    height: 60rem;
+}
+.project{
+    border: var(--highlight) 1px solid;
+    border-radius: 2rem;
+}

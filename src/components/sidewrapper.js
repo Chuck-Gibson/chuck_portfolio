@@ -7,7 +7,7 @@ export default function SideWrapper() {
         <div className="sideWrapper-container">
             <div className="left-wrapper wrapper">
                 <a href="https://github.com/Chuck-Gibson"><i class="fab fa-github"></i></a>
-                <a href="/"><i class="fab fa-linkedin"></i></a>
+                <a href="linkedin.com/in/charles-gibson-2a451524b"><i class="fab fa-linkedin"></i></a>
                 <hr/>
                 </div>
             <div className="spacer"></div>

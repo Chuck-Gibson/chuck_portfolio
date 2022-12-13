@@ -1,0 +1,58 @@
+.sideWrapper-container{
+    position: fixed;
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    bottom: -4rem;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    height: 20rem;
+}
+.wrapper div {
+    margin-bottom: 2rem;
+}
+
+.left-wrapper hr {
+    height: 15rem;
+    width: 1px;
+    margin-top: 1rem;
+    background-color: var(--highlight);
+    border-width: 0rem;
+    bottom: 0rem;
+    overflow: hidden;
+
+}
+
+.left-wrapper {
+    font-family: "Font Awesome 5 Brands";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    writing-mode: vertical-rl
+}
+.left-wrapper i {
+    margin: 0rem;
+    padding:1rem;
+}
+.left-wrapper a:hover{
+    color: var(--highlight);
+}
+
+.right-wrapper hr{
+    height: 8rem;
+    width: 1px;
+    margin-top: 1rem;
+    background-color: var(--highlight);
+    border-width: 0rem;
+    bottom: 0rem;
+    overflow: hidden;
+}
+.right-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    writing-mode: vertical-lr;
+}

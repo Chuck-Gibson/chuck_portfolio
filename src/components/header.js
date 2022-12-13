@@ -8,10 +8,10 @@ export default function Header() {
         <div className="header">
             <h2><span>C</span>G</h2>
             <ul>
-               <li><a href="/" data-content="About"><span>A</span>bout</a></li>
-               <li><a href="/"  data-content="Skills"><span>S</span>kills</a></li>
-               <li><a href="/"  data-content="Projects"><span>P</span>rojects</a></li>
-               <li><a href="/"  data-content="Contact"><span>C</span>ontact</a></li> 
+               <li><a href="#about-me" data-content="About"><span>A</span>bout</a></li>
+               <li><a href="#skills"  data-content="Skills"><span>S</span>kills</a></li>
+               <li><a href="#projects"  data-content="Projects"><span>P</span>rojects</a></li>
+               <li><a href="#contact"  data-content="Contact"><span>C</span>ontact</a></li> 
             </ul>
         </div>
     )

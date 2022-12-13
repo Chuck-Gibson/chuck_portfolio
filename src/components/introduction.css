@@ -4,13 +4,20 @@
     justify-content: center;
     align-items: center;
     height:40rem;
+    width: 70%;
     text-align: left;
+    
+}
+.intro {
+    overflow: hidden;
+
 }
 .intro h1{
     margin: auto;
 }
 .intro p{
     max-width: 60%;
+    animation-delay: 1.5s;
 }
 #name{
     color: rgb(198, 198, 198);

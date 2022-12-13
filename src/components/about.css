@@ -27,3 +27,6 @@ h2 hr {
     background-color: var(--highlight);
     border-width: 0px;
 }
+.about-container img {
+    margin-right: 4rem;
+}

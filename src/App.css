@@ -26,6 +26,18 @@ h1 {
 .text-container h2{
   margin-top: 0rem;
 }
+h2{
+  margin: auto;
+  align-items: center;
+}
+h2 hr {
+  margin: auto;
+  margin: 1rem;
+  width: 9rem;
+  height: 1px;
+  background-color: var(--highlight);
+  border-width: 0px;
+}
 img {
   border-radius: 1rem;
   max-width: 35%;

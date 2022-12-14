@@ -5,6 +5,7 @@ import About from './components/about';
 import Skills from './components/skills';
 import Intro from './components/Introduction';
 import SideWrapper from './components/sideWrapper';
+import Footer from './components/footer';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
        <Projects/>
        <Skills/>
        <SideWrapper/>
+       <Footer/>
     </main>
   );
 }

@@ -39,6 +39,7 @@
 }
 .left-wrapper a:hover{
     color: var(--highlight);
+    transform: translateY(-0.2rem);
 }
 
 .right-wrapper hr{
@@ -55,4 +56,8 @@
     flex-direction: row;
     justify-content: space-between;
     writing-mode: vertical-lr;
+   
+}
+.right-wrapper a:hover{
+    transform: translateY(-0.2rem);
 }

@@ -2,8 +2,8 @@
     height: 60rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 20%;
+    align-items: flex-start;
+    margin: 20rem;
     max-width:500rem;
 }
 .content-container {
@@ -16,16 +16,7 @@
 .about-container h2 {
     display: flex;
     flex-wrap: nowrap;
-    margin-left: 20rem;
     max-width: 30rem;
-}
-h2 hr {
-    margin: auto;
-    margin-left: 1rem;
-    width: 12rem;
-    height: 1px;
-    background-color: var(--highlight);
-    border-width: 0px;
 }
 .about-container img {
     margin-right: 4rem;

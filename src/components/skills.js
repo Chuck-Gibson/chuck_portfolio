@@ -4,7 +4,7 @@ import "./skills.css";
 export default function Skills() {
      return (
         <div id="skills">
-            <h2><span>S</span>kills</h2>
+            <h2><hr/><span>S</span>kills<hr/></h2>
             <div className='skills-container'>
                 <i className="fab fa-html5"></i>
                 <i className="fab fa-css3-alt"></i>

@@ -4,7 +4,7 @@ export default function About() {
 
     return (
         <div className='about-container'>
-             <h2 id='about-me'><span>A</span>bout  Me <hr/></h2>
+             <h2 id='about-me'><hr/><span>A</span>bout  Me <hr/></h2>
             <div className='content-container'>
             <img src={require("../resources/images/cartoonchuck.png")} alt="a cartoon of Chuck Gibson"/>
             <div className="text-container">

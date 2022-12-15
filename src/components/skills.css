@@ -1,30 +1,30 @@
-#skills {
+.skills-container {
     margin: 2rem 10rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 
 }
-#skills h2 {
+.skills-container h2 {
         display: flex;
         flex-direction: row;
 }
 
-#skills i {
+.skills-container i {
     font-size: 60px;
     padding: 1rem 2rem 0rem 2rem;
 }
-#skills p {
+.skills-container p {
     font-size: 20px;
 }
 
-#skills a:hover{
+.skills-container a:hover{
     transition: 0.5s ease-in-out;
     transform: translateY(-0.25rem);
     text-shadow: 0.5rem 0.5rem 0.25rem var(--shadow);
     color:var(--highlight)
 }
-.skills-container {
+.skills {
     font-family: "Font Awesome 5 Brands";
     font-size: 2.5rem;
     display: flex;

@@ -6,6 +6,7 @@ import Skills from './components/skills';
 import Intro from './components/Introduction';
 import SideWrapper from './components/sideWrapper';
 import Footer from './components/footer';
+import ContacMe from './components/contactMe';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
        <Projects/>
        <Skills/>
        <SideWrapper/>
+       <ContacMe/>
        <Footer/>
     </main>
   );

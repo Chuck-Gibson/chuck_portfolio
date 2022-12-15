@@ -3,9 +3,9 @@ import "./skills.css";
 
 export default function Skills() {
      return (
-        <div id="skills">
+        <div className="skills-container">
             <h2><hr/><span>S</span>kills<hr/></h2>
-            <div className='skills-container'>
+            <div className='skills'>
                 <div classname="skill"><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><i className="fab fa-html5"></i><p>Html</p></a></div>
                 <div classname="skill"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><i className="fab fa-css3-alt"></i><p>Css</p></a></div>
                 <div classname="skill"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><i className="fab fa-js"></i><p>JavaScript</p></a></div>

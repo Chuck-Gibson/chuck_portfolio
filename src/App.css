@@ -46,6 +46,15 @@ img {
   box-shadow:10px 5px 10px var(--shadow);
 }
 
+.footer {
+  height: 5rem;
+  font-size: 0.75rem;
+}
+.footer a{
+  font-size: 0.75rem;
+  transform: translateY(0.15rem);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

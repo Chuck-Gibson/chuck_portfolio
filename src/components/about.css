@@ -3,8 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 20rem;
-    max-width:500rem;
+    margin: 10rem;
 }
 .content-container {
     display: flex;

@@ -4,6 +4,8 @@
   --shadow:rgb(18, 18, 18);
   --text:rgb(123, 120, 120);
   --highlight:rgb(17, 203, 32);
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
 }
 body {
   margin: 0;

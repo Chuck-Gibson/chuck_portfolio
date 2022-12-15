@@ -1,0 +1,25 @@
+.contactMe-container{
+    height: 20rem;
+    width: 40%;
+    margin: 30rem 30% 30rem;
+    text-align: center;
+
+}
+.contactMe-container p{
+    padding: 2rem;
+}
+.contactMe-container a{
+    padding:1rem;
+    color: var(--highlight);
+    border: var(--highlight) 1px solid;
+    border-radius: 2rem;
+    
+}
+.contactMe-container a:hover{
+    transition: 0.25s ease-in-out;
+    transform: translateY(-0.25rem);
+    box-shadow: 0.5rem 0.5rem 0.5rem var(--shadow);
+    color: var(--background);
+    background-color: var(--highlight);
+    
+}

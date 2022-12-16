@@ -43,6 +43,11 @@ h2 hr {
 img{
   border-radius: 2rem;
   box-shadow: 1rem 1rem 1rem var(--shadow);
+  max-width: 35rem;
+  max-height: 35rem;
+}
+input {
+  z-index: 10;
 }
 
 .footer {

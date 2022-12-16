@@ -10,7 +10,6 @@ export default function SideWrapper() {
                 <a href="https://linkedin.com/in/charles-gibson-2a451524b"><i className="fab fa-linkedin"></i></a>
                 <hr/>
                 </div>
-            <div className="spacer"></div>
             <div className="right-wrapper wrapper">
                 <a href="mailto:chuckgibson@live.ca" data-content="ChuckGibson @ live.ca">ChuckGibson <span>@</span> live.ca</a><hr/>
                 </div>

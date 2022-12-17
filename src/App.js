@@ -18,7 +18,7 @@ function App() {
        <About/>
        <Skills/>
        <Projects/>
-       <SideWrapper/>
+       
        <ContacMe/>
        <Footer/>
     </main>

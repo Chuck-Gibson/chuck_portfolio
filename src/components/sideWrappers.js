@@ -1,7 +1,7 @@
 import React from "react";
 import './sideWrapper.css';
 
-export default function SideWrapper() {
+export default function SideWrappers() {
 
     return (
         <div className="sideWrapper-container">
@@ -15,4 +15,4 @@ export default function SideWrapper() {
                 </div>
         </div>
     )
-}
+};

@@ -1,0 +1,23 @@
+.about-container {
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10rem;
+}
+.content-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+}
+.about-container h2 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.about-container img {
+    margin: 1rem;
+    width: 20rem;
+    height: 20rem;
+}

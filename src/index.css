@@ -1,3 +1,12 @@
+:root {
+  --background:rgb(34, 34, 34);
+  --text-background: rgb(25,25,25);
+  --shadow:rgb(18, 18, 18);
+  --text:rgb(123, 120, 120);
+  --highlight:rgb(17, 203, 32);
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

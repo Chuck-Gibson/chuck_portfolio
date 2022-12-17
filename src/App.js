@@ -3,8 +3,8 @@ import Header from "./components/header";
 import Projects from './components/projects';
 import About from './components/about';
 import Skills from './components/skills';
-import Intro from './components/Introduction';
-
+import Intro from './components/introduction';
+import SideWrapper from './components/sideWrapper'
 import Footer from './components/footer';
 import ContacMe from './components/contactMe';
 
@@ -18,7 +18,7 @@ function App() {
        <About/>
        <Skills/>
        <Projects/>
-    
+       <SideWrapper/>
        <ContacMe/>
        <Footer/>
     </main>

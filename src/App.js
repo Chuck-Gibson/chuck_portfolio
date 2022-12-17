@@ -3,8 +3,8 @@ import Header from "./components/header";
 import Projects from './components/projects';
 import About from './components/about';
 import Skills from './components/skills';
-import Intro from './components/introduction';
-import SideWrapper from './components/sideWrapper'
+import Intro from './components/Introduction';
+import SideWrapper from './components/SideWrapper'
 import Footer from './components/footer';
 import ContacMe from './components/contactMe';
 

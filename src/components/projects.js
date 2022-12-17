@@ -28,7 +28,7 @@ export default function Projects() {
                 <div className="project">
                 <img src={require("../resources/images/jamming.png")} alt="A sample photography website"/>
                 <div className="project-content">
-                    <a href="https://github.com/Chuck-Gibson/jammming" ><h3>Jammming</h3></a>
+                    <a href="https://main--selsjamming.netlify.app/" ><h3>Jammming</h3></a>
                     <p className="project-discription">
                         A single page React app that interacts with the Spotify API to allow searching of songs, building of playlists, and saving those playlists to your spotify account
                     </p>

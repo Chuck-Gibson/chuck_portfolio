@@ -69,3 +69,14 @@
     text-shadow: 0.5rem 0.5rem 0.25rem var(--shadow);
     color:var(--highlight)
 }
+@media only screen and ( max-width: 950px){
+    .sideWrapper-container{
+    max-width: 100vw;
+    }
+    .wrapper {
+        height: 15rem;
+    }
+    .right-wrapper hr {
+        height: 2rem;
+    }
+}

@@ -73,4 +73,10 @@
     .sideWrapper-container{
     max-width: 100vw;
     }
+    .wrapper {
+        height: 15rem;
+    }
+    .right-wrapper hr {
+        height: 2rem;
+    }
 }

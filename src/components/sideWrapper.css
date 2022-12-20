@@ -75,6 +75,7 @@
     }
     .wrapper {
         height: 15rem;
+        margin: 0.5rem;
     }
     .right-wrapper hr {
         height: 2rem;

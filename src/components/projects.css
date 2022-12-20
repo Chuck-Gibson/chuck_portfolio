@@ -14,7 +14,7 @@
 }
 .carousel-container {
     display: grid;
-    grid-template-rows: 31.25rem 6.25rem;
+    grid-template-rows: 34.25rem 6.25rem;
     grid-template-columns: 20rem 2rem 2rem 2rem 2rem 20rem;
     align-items: center;
     justify-items: center;

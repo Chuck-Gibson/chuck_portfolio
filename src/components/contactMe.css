@@ -24,3 +24,9 @@
     background-color: var(--highlight);
     
 }
+@media only screen and ( max-width: 950px){
+    .contactMe-container{
+        width:80%;
+        margin: 5rem auto;
+    }
+}

@@ -27,9 +27,8 @@
 
 .skills {
     font-family: "Font Awesome 5 Brands";
-    font-size: 2.5rem;
     display: flex;
-    height: 15rem;
+    height: fit-content;
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
@@ -37,3 +36,11 @@
     z-index: 1;
 }
 
+@media only screen and ( max-width: 950px){
+    .skills-container{
+        margin: 2rem 3rem;
+    }
+    .skills-container i{
+        font-size:3rem;
+    }
+}

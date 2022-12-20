@@ -14,7 +14,7 @@
 }
 .carousel-container {
     display: grid;
-    grid-template-rows: 500px 100px;
+    grid-template-rows: 31.25rem 6.25rem;
     grid-template-columns: 20rem 2rem 2rem 2rem 2rem 20rem;
     align-items: center;
     justify-items: center;
@@ -130,4 +130,20 @@
     padding: 0rem  1rem;
   }
 
-  
+  @media only screen and ( max-width: 950px){
+    #carousel{
+        margin: 3rem;
+    }
+    .project {
+        align-items: center;
+        flex-direction: column;
+    }
+    .project img {
+        max-width: 30rem;
+    }
+    .project-content {
+        margin-top: 1rem;
+        align-items: center;
+        transform: translateX(0rem);    
+    }
+  }

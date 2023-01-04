@@ -129,7 +129,28 @@
   .details a {
     padding: 0rem  1rem;
   }
+  .arrow{
+    font-size: large;
+    font-weight: bold;
+  }
+  .arrow:hover{
+    cursor: pointer;
+  }
 
+  #left-arrow{
+    padding-right: 0.5rem;
+    justify-self: flex-end;
+  }
+  #left-arrow:hover{
+    transform: translateX(-0.25rem)
+  }
+  #right-arrow{
+    padding-left: 0.5rem;
+    justify-self: flex-start;
+  }
+  #right-arrow:hover{
+    transform: translateX(0.25rem)
+  }
   @media only screen and ( max-width: 950px){
     .carousel-container{
         grid-template-columns: 5rem 2rem 2rem 2rem 2rem 5rem;
@@ -143,9 +164,10 @@
         flex-direction: column;
     }
     .project img {
-        max-width: 30rem;
+        max-width: 100%;
     }
     .project-content {
+        max-width: 90%;
         margin-top: 1rem;
         align-items: center;
         transform: translateX(0rem);    

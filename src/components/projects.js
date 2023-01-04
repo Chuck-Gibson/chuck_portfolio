@@ -3,15 +3,38 @@ import "./projects.css";
 
 export default function Projects() {
 
+    const carouselCollection = document.getElementsByClassName('radio');
+    
+    
+    
+    const projectForward = () =>{
+        const carouselArr = Array.prototype.slice.call(carouselCollection);
+        const checked = carouselArr.filter(item => item.checked)
+        if(+checked[0].id < 4){ 
+            const newChecked = +checked[0].id + 1;
+            return document.getElementById(newChecked).checked = true;  
+        }
+    }
+    const projectBack = () =>{
+        const carouselArr = Array.prototype.slice.call(carouselCollection);
+        const checked = carouselArr.filter(item => item.checked)
+        if(+checked[0].id > 1){ 
+            const newChecked = +checked[0].id - 1;
+            return document.getElementById(newChecked).checked = true;  
+        }
+    }
+
     
     return (
         <div className="projects-container">
             <h2 id='projects'><hr/><span>P</span>rojects<hr/></h2>
             <div className="carousel-container">
-                <input className="radio" type="radio" name="position" id="postion-1" defaultChecked/>
-                <input className="radio" type="radio" name="position" id="postion-2"/>
-                <input className="radio" type="radio" name="position" id="postion-3"/>
-                <input className="radio" type="radio" name="position" id="postion-4"/>
+                <span className="arrow" id="left-arrow" onClick={projectBack}>{"<"}</span>
+                <input className="radio" type="radio" name="position" id="1" defaultChecked/>
+                <input className="radio" type="radio" name="position" id="2"/>
+                <input className="radio" type="radio" name="position" id="3"/>
+                <input className="radio" type="radio" name="position" id="4"/>
+                <span className="arrow" id="right-arrow" onClick={projectForward}>{">"}</span>
             <div id="carousel">
                 <div className="project">
                <img src={require("../resources/images/fotomat.png")} alt="A sample photography website"/>

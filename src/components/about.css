@@ -31,10 +31,22 @@
     display: inline;
     cursor: pointer;
 }
+
 summary::marker{
     color: var(--highlight);
     cursor: pointer;
 }
+details summary::before{
+    cursor: pointer;
+    content: "show more";
+    color: var(--highlight);
+  }
+ details[open] summary::before{
+    cursor: pointer;
+    content: "show less";
+    color: var(--highlight);
+  }
+
 
 
 

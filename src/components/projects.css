@@ -50,6 +50,7 @@
     transform: rotateY(calc(-20deg * var(--r)))
         translateX(calc(-30rem * var(--r)));
     z-index: calc(var(--position) - var(--abs) + 2);
+    pointer-events: auto;
 }
 
  
@@ -97,6 +98,13 @@
   input:nth-of-type(4):checked ~ #carousel {
     --position: 4;
   }
+  .project img:hover{
+    cursor: pointer;
+  }
+  .project a {
+    z-index: 11;
+    overflow: visible;
+  }
   .project-content{
     display: flex;
     padding: 0rem 0.5rem;
@@ -109,7 +117,7 @@
     background-color:var(--shadow);
     box-shadow: 1rem 1rem 1rem var(--shadow);
     opacity: 0.97;
-    pointer-events: auto;
+    z-index: 12;
   }
   .project-content h3 {
     padding-right: 2rem;
@@ -151,6 +159,8 @@
   #right-arrow:hover{
     transform: translateX(0.25rem)
   }
+
+
   @media only screen and ( max-width: 950px){
     .carousel-container{
         grid-template-columns: 5rem 2rem 2rem 2rem 2rem 5rem;

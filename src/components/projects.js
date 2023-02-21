@@ -37,7 +37,7 @@ export default function Projects() {
                 <span className="arrow" id="right-arrow" onClick={projectForward}>{">"}</span>
             <div id="carousel">
                 <div className="project">
-               <img src={require("../resources/images/fotomat.png")} alt="A sample photography website"/>
+                <a href="https://chuck-gibson.github.io/capstone_fotomatic-CC/" ><img src={require("../resources/images/fotomat.png")} alt="A sample photography website"/></a>
                     <div className="project-content">
                         <a href="https://chuck-gibson.github.io/capstone_fotomatic-CC/" ><h3>Capstone Fotomatic</h3></a>
                         <p className="project-discription">
@@ -49,7 +49,7 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className="project">
-                <img src={require("../resources/images/jamming.png")} alt="A sample photography website"/>
+                <a href="https://main--selsjamming.netlify.app/" ><img src={require("../resources/images/jamming.png")} alt="A webiste that uses the Spotify API"/></a>
                 <div className="project-content">
                     <a href="https://main--selsjamming.netlify.app/" ><h3>Jammming</h3></a>
                     <p className="project-discription">
@@ -62,7 +62,7 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className="project">
-                    <img src={require("../resources/images/reddit_app.png")} alt="A sample photography website"/>
+                <a href="https://github.com/Chuck-Gibson/reddit-app"><img src={require("../resources/images/reddit_app.png")} alt="A simple reddit app buit with r=React"/></a>
                     <div className="project-content">
                         <a href="https://github.com/Chuck-Gibson/reddit-app"><h3>Reddit Client</h3></a>
                         <p className="project-discription"> 
@@ -75,7 +75,7 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className="project">
-                    <img src={require("../resources/images/Portfolio.png")} alt="A sample photography website"/>
+                    <a href="Chuckgibson.tech"><img src={require("../resources/images/Portfolio.png")} alt="Chuck Gibson's portfolio site"/></a>
                     <div className="project-content">
                         <a href="Chuckgibson.tech"><h3>Portfolio Site</h3></a>
                         <p className="project-discription">

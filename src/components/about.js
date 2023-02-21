@@ -11,7 +11,7 @@ export default function About() {
                 <p>I am from Canada and am an aspiring coder.</p> 
                 <p>Growing up in the 90s and early 2000s, I always had a fascination with computers, space, technology, AI, and how's things worked. Coding and web development are a natural progression of that for me. Building functional and helpful Apps for the future</p>
                 <details className="about-me-more">
-                    <summary><p className='show-more'><span>more</span></p></summary>
+                    <summary><p className='show-more'><span></span></p></summary>
                     <div className="more-content">
                     <p>But growing up in small-town Saskatchewan, I did not see many opportunities in the tech industry. Smartphones did not yet exist, and Facebook and Google were just fledgling websites.</p>
                     <p>So I did what I knew how to do to pay the bills and found work in the trades and building material industries.</p>

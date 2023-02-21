@@ -31,10 +31,20 @@
     display: inline;
     cursor: pointer;
 }
+
 summary::marker{
     color: var(--highlight);
     cursor: pointer;
 }
+details summary::before{
+    content: "show more";
+    color: var(--highlight);
+  }
+ details[open] summary::before{
+    content: "show less";
+    color: var(--highlight);
+  }
+
 
 
 
